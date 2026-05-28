@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <section class="hero">
+
+            <div class="slide-container">
+
+                <div class="slide active">
+                    <h1>Home</h1>
+                </div>
+
+
+                <div class="slide">
+                    <h1>Shoes</h1>
+                </div>
+
+
+                <div class="slide">
+                    <h1>Fashion</h1>
+                </div>
+
+                <div class="slide">
+                    <h1>Clothes</h1>
+                </div>
+
+            </div>
+
+
+            <button class="left-arrow" onclick="prevSlide()">
+                &#10094;
+            </button>
+
+            <button class="right-arrow" onclick="nextSlide()">
+                &#10095;
+            </button>
+
+        </section>
+
+        <section class="welcome-section">
+            <div class="welcome-content">
+
+                <h2>Welcome Developer!</h2>
+                <p>
+                    Shop from my site, you will find fabulous things in low price.
+                    <br>
+                    Do visit and get a chance to grab best.
+                </p>
+
+                <button  id="left" class="buttons">
+                    Shop Now
+                </button>
+
+                <button  id="right" class="buttons">
+                    Discover All
+                </button>
+              
+                    <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            </div>
+
+        </section>
+
+        <section class="products-section">
+
+            <h3>Heading</h3>
+
+            <div class="product-container">
+                <div class="product-box">Home</div>
+                <div class="product-box">Shoes</div>
+                <div class="product-box">Fashion</div>
+                <div class="product-box">Clothes</div>
+            </div>
+
+        
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
